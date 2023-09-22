@@ -8,15 +8,18 @@ let sum =document.getElementById("sum-el")
 
 function add(){
     let total = num1 + num2 
-    sum.textContent += total + " - "
+    sum.textContent = "sum: " + total
 }
 function substract(){
-    sum.textContent += num1 - num2 + " - "
+    let total = num1 - num2;
+    sum.textContent = "sum: " +  total;
 }
 function multiply(){
-    sum.textContent += num1 * num2 + " - "
+    let total = num1 * num2;
+    sum.textContent = "sum: " + total; 
     
 }
 function divide(){
-    sum.textContent += num1 /  num2 
+    let total = num1 / num2;
+    sum.textContent = "sum: " + total
 }
