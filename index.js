@@ -12,14 +12,14 @@ function add(){
 }
 function substract(){
     let total = num1 - num2;
-    sum.textContent = "sum: " +  total;
+    sum.textContent = "Subs: " +  total;
 }
 function multiply(){
     let total = num1 * num2;
-    sum.textContent = "sum: " + total; 
+    sum.textContent = "Multi: " + total; 
     
 }
 function divide(){
     let total = num1 / num2;
-    sum.textContent = "sum: " + total
+    sum.textContent = "Divide: " + total
 }
